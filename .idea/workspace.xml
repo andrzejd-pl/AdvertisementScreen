@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8e5a7f-3517-4a54-928e-2e3ea62c5bce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Controllers/WebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Model/Advertisement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Model/News.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.wiatrzyk.damian/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.wiatrzyk.damian/Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.wiatrzyk.damian/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.wiatrzyk.damian/com/wiatrzyk/damian/Advertisement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.wiatrzyk.damian/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.wiatrzyk.damian/com/wiatrzyk/damian/Source.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,10 +40,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com.wiatrzyk.damian/Interface.java">
+        <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Controllers/WebController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="558">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +51,32 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Model/News.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Model/Advertisement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +85,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/com.wiatrzyk.damian/Interface.java" />
+        <option value="$PROJECT_DIR$/com.wiatrzyk.damian/Advertisement.java" />
+        <option value="$PROJECT_DIR$/com.wiatrzyk.damian/Source.java" />
+        <option value="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/WebController.java" />
+        <option value="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Controllers/WebController.java" />
       </list>
     </option>
   </component>
@@ -80,7 +113,20 @@
             <path>
               <item name="screen" type="b2602c69:ProjectViewProjectNode" />
               <item name="screen" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.wiatrzyk.damian" type="462c0819:PsiDirectoryNode" />
+              <item name="com.dybowski.andrzej" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="screen" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com.dybowski.andrzej" type="462c0819:PsiDirectoryNode" />
+              <item name="andrzej" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="screen" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com.dybowski.andrzej" type="462c0819:PsiDirectoryNode" />
+              <item name="andrzej" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -92,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556107843851" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556108147451" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/com.wiatrzyk.damian" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -126,12 +172,27 @@
       <workItem from="1554834105598" duration="231000" />
       <workItem from="1554836625338" duration="574000" />
       <workItem from="1555264188468" duration="26000" />
-      <workItem from="1556107538446" duration="251000" />
+      <workItem from="1556107538446" duration="608000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor code">
+      <created>1556107807773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556107807773</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactor code">
+      <created>1556107853058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556107853058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1082000" />
+    <option name="totallyTimeSpent" value="1439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -212,6 +273,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gradle/vcs-1/gc.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -221,10 +286,48 @@
         <state relative-caret-position="-2383" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.wiatrzyk.damian/Interface.java">
+    <entry file="file://$PROJECT_DIR$/com.wiatrzyk.damian/com/wiatrzyk/damian/Interface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.wiatrzyk.damian/com/wiatrzyk/damian/Advertisement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.wiatrzyk.damian/com/wiatrzyk/damian/Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Model/Advertisement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Model/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Controllers/WebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -234,9 +337,82 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>bootstrap</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com.advertisement.screen</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

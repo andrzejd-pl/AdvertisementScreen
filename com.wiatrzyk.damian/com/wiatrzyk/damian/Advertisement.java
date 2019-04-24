@@ -1,4 +1,4 @@
-package com.wiatrzyk.damian
+package com.wiatrzyk.damian;
 
 public class Advertisement {
 
