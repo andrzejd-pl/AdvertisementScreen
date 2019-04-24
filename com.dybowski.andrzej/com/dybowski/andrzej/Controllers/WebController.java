@@ -1,34 +1,35 @@
 package com.dybowski.andrzej.Controllers;
 
+import com.dybowski.andrzej.Helpers.Status;
 import com.dybowski.andrzej.Model.Advertisement;
 import com.dybowski.andrzej.Model.News;
 
 public class WebController {
-    public void addAdvertisement(Advertisement advertisement) {
+    public Advertisement addAdvertisement(Advertisement advertisement) {
+        return advertisement;
+    }
+
+    public boolean deleteAdvertisement(int id) {
+        return false;
+    }
+
+    public Advertisement modifyAdvertisement(int id, Advertisement advertisement) {
 
     }
 
-    public void deleteAdvertisement(int id) {
+    public News addNews(News news) {
 
     }
 
-    public void modifyAdvertisement(int id, Advertisement advertisement) {
+    public boolean deleteNews(int id) {
 
     }
 
-    public void addNews(News news) {
+    public News modifyNews(int id, News news) {
 
     }
 
-    public void deleteNews(int id) {
-
-    }
-
-    public void modifyNews(int id, News news) {
-
-    }
-
-    public void getSystemStatus() {
+    public Status getSystemStatus() {
 
     }
 }

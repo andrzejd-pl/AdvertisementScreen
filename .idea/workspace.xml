@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8e5a7f-3517-4a54-928e-2e3ea62c5bce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Controllers/WebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Model/Advertisement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Model/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Helpers/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.wiatrzyk.damian/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.wiatrzyk.damian/com/wiatrzyk/damian/Advertisement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.wiatrzyk.damian/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.wiatrzyk.damian/com/wiatrzyk/damian/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Controllers/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Controllers/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,11 +40,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Controllers/WebController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Helpers/Status.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -121,13 +128,6 @@
               <item name="com.dybowski.andrzej" type="462c0819:PsiDirectoryNode" />
               <item name="andrzej" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="screen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="screen" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.dybowski.andrzej" type="462c0819:PsiDirectoryNode" />
-              <item name="andrzej" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -138,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556108147451" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556108519350" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/com.wiatrzyk.damian" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -172,7 +172,7 @@
       <workItem from="1554834105598" duration="231000" />
       <workItem from="1554836625338" duration="574000" />
       <workItem from="1555264188468" duration="26000" />
-      <workItem from="1556107538446" duration="608000" />
+      <workItem from="1556107538446" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="refactor code">
       <created>1556107807773</created>
@@ -188,15 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556107853058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add models and first version of controller">
+      <created>1556108173583</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556108173584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1439000" />
+    <option name="totallyTimeSpent" value="1653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -275,7 +281,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
+    <MESSAGE value="add models and first version of controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="add models and first version of controller" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gradle/vcs-1/gc.properties">
@@ -324,10 +331,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Helpers/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com.dybowski.andrzej/com/dybowski/andrzej/Controllers/WebController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
