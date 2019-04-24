@@ -1,4 +1,12 @@
-public byte[] getVideo(String path) throws IOException {
+package com.wiatrzyk.damian;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.*;
+import java.net.URL;
+
+class Interface {
+    public byte[] getVideo(String path) throws IOException {
         File file = new File(path);
 
 
@@ -10,9 +18,9 @@ public byte[] getVideo(String path) throws IOException {
         fileInputStream.close();
 
         return bFile;
-        }
+    }
 
-public byte[] getImage(String path) throws IOException {
+    public byte[] getImage(String path) throws IOException {
         BufferedImage image = ImageIO.read(new File("image.png"));
 
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -21,22 +29,23 @@ public byte[] getImage(String path) throws IOException {
         byte[] source = outputStream.toByteArray();
 
         return source;
-        }
+    }
 
-public byte[] getWWW(String url) throws IOException {
+    public byte[] getWWW(String url) throws IOException {
 
-        String site="";
+        String site = "";
         byte[] siteBytes;
         URL oracle = new URL(url);
         BufferedReader in = new BufferedReader(
-        new InputStreamReader(oracle.openStream()));
+                new InputStreamReader(oracle.openStream()));
 
         String inputLine;
         while ((inputLine = in.readLine()) != null) {
-        site=site + inputLine;
+            site = site + inputLine;
         }
         in.close();
         siteBytes = site.getBytes();
 
         return siteBytes;
-        }
+    }
+}
