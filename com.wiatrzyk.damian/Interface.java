@@ -23,6 +23,12 @@ public byte[] getImage(String path) throws IOException {
         return source;
         }
 
+public File saveScreeShot(byte[] data){
+        ByteArrayInputStream bis = new ByteArrayInputStream(data);
+        BufferedImage bImage2 = ImageIO.read(bis);
+        ImageIO.write(bImage2, "png", new File("output.png") );
+        }
+
 public byte[] getWWW(String url) throws IOException {
 
         String site="";
