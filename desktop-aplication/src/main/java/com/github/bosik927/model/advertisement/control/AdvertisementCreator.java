@@ -82,7 +82,7 @@ public class AdvertisementCreator implements Runnable {
     }
 
     private MediaPlayer readVideo(String path) {
-        Media media = null;
+        Media media;
         try {
             media = new Media(Paths.get(path).toUri().toString());
             MediaPlayer mediaPlayer = new MediaPlayer(media);
@@ -92,6 +92,7 @@ public class AdvertisementCreator implements Runnable {
         } catch (Exception e) {
             System.out.println("Problem with reading video");
         }
+
         return null;
     }
 }

@@ -1,4 +1,4 @@
-create if not exist `advertisement_screen`;
+create database `advertisement_screen`;
 
 use `advertisement_screen`;
 
