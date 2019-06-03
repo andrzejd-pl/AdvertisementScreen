@@ -1,4 +1,4 @@
-package sample;
+package com.github.bosik927.model.advertisement;
 
 import javafx.application.Platform;
 import javafx.scene.Parent;
@@ -7,12 +7,17 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.TimeUnit;
 
-class AdvertisementThread implements Runnable {
+public class AdvertisementThread implements Runnable {
+    private static  Queue<Advertisement> advertisements = new LinkedList<>();
     private Thread t;
     private String threadName;
     private Parent root;
 
-    AdvertisementThread(String name, Parent parent) {
+    public void pushAdvertisement(Advertisement advertisement){
+        advertisements.add(advertisement);
+    }
+
+    public AdvertisementThread(String name, Parent parent) {
         threadName = name;
         root = parent;
 

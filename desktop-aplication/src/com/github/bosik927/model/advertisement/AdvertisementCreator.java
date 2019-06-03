@@ -1,4 +1,4 @@
-package sample;
+package com.github.bosik927.model.advertisement;
 
 import javafx.embed.swing.SwingFXUtils;
 import javafx.fxml.FXMLLoader;
@@ -32,19 +32,19 @@ public class AdvertisementCreator implements Runnable {
         Parent root = null;
         try {
             if (advertisement.getDataType().equals("Picture")) {
-                root = FXMLLoader.load(getClass().getResource("PictureAdvertisement.fxml"));
+                root = FXMLLoader.load(getClass().getResource("../../view/PictureAdvertisement.fxml"));
                 ImageView imageView = (ImageView) root.lookup("#imageView");
                 imageView.setImage(readImage(advertisement.getSource()));
             }
 
             if (advertisement.getDataType().equals("Video")) {
-                root = FXMLLoader.load(getClass().getResource("MediaAdvertisement.fxml"));
+                root = FXMLLoader.load(getClass().getResource("../../view/MediaAdvertisement.fxml"));
                 MediaView mediaView = (MediaView) root.lookup("#mediaView");
                 mediaView.setMediaPlayer(readVideo(advertisement.getSource()));
             }
 
             if (advertisement.getDataType().equals("Web")) {
-                root = FXMLLoader.load(getClass().getResource("WebAdvertisement.fxml"));
+                root = FXMLLoader.load(getClass().getResource("../../view/WebAdvertisement.fxml"));
                 WebView webView = (WebView) root.lookup("#webView");
                 WebEngine webEngine = webView.getEngine();
                 webEngine.load(advertisement.getSource());

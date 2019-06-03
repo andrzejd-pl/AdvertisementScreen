@@ -1,8 +1,11 @@
-package sample;
+package com.github.bosik927.model.news;
 
+import javafx.geometry.Insets;
 import javafx.scene.Parent;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
+
+import java.util.concurrent.TimeUnit;
 
 public class NewsChanger implements Runnable {
 

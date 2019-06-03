@@ -11,7 +11,7 @@
 <?import javafx.scene.media.MediaView?>
 <?import javafx.scene.web.WebView?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.bosik927.controler.Controller">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -57,7 +57,7 @@
             <ImageView fx:id="imageView" fitHeight="351.0" fitWidth="203.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
             <MediaView fx:id="mediaView" fitHeight="200.0" fitWidth="200.0" layoutX="253.0" layoutY="14.0" />
             <WebView fx:id="webView" layoutX="440.0" prefHeight="351.0" prefWidth="200.0" />
-            <Label fx:id ="news" layoutX="14.0" layoutY="320.0" prefHeight="42.0" prefWidth="614.0" />
+            <Label fx:id="news" alignment="CENTER" layoutX="14.0" layoutY="320.0" prefHeight="42.0" prefWidth="614.0" textAlignment="CENTER" />
       </children>
     </AnchorPane>
   </children>

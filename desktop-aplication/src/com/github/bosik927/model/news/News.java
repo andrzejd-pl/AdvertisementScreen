@@ -1,4 +1,4 @@
-package sample;
+package com.github.bosik927.model.news;
 
 public class News {
 

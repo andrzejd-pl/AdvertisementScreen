@@ -1,9 +1,7 @@
-package sample;
+package com.github.bosik927.model.news;
 
 import javafx.application.Platform;
 import javafx.scene.Parent;
-import javafx.scene.control.Label;
-import javafx.stage.Stage;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -11,10 +9,15 @@ import java.util.concurrent.TimeUnit;
 
 public class NewsThread implements Runnable {
 
+    private static Queue<News> newsQueue = new LinkedList<>();
     private Parent root;
 
     public NewsThread(Parent root) {
         this.root = root;
+    }
+
+    public static void pushNews(News news){
+        newsQueue.add(news);
     }
 
     @Override

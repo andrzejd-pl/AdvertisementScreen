@@ -1,4 +1,4 @@
-package sample;
+package com.github.bosik927.model.advertisement;
 
 public class Advertisement {
     private int advertisementId;

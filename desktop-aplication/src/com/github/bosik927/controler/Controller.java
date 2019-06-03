@@ -1,4 +1,4 @@
-package sample;
+package com.github.bosik927.controler;
 
 import javafx.embed.swing.SwingFXUtils;
 import javafx.fxml.FXML;
@@ -33,9 +33,9 @@ public class Controller {
 
     @FXML
     private void initialize() {
-        imageView.setImage(readImage());
-        mediaView.setMediaPlayer(readVideo());
-        readWebsite("http://google.com");
+//        imageView.setImage(readImage());
+//        mediaView.setMediaPlayer(readVideo());
+//        readWebsite("http://google.com");
     }
 
     private Image readImage() {
