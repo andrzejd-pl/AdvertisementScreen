@@ -1,4 +1,4 @@
-package com.github.bosik927.model.news;
+package com.github.bosik927.model.news.entity;
 
 public class News {
 

@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Added missing fxml files">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Refactored code, added push method to News and Advertisement">
+      <change afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/entity/AdvertisementType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PT/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PT/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PT/sample/krawczyk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PT/sample/sampleVideo.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PT/sample/sampleVideo2.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/Advertisement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/AdvertisementCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/AdvertisementThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/controler/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/view/MainView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/MediaAdvertisement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/view/MediaAdvertisement.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/news/News.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/NewsChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/news/NewsChanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/NewsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/news/NewsThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/PictureAdvertisement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/view/PictureAdvertisement.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/WebAdvertisement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/view/WebAdvertisement.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/krawczyk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/view/krawczyk.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sampleVideo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/view/sampleVideo.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sampleVideo2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/view/sampleVideo2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/bosik927/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/entity/Advertisement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/bosik927/model/news/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/news/entity/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/bosik927/model/news/NewsChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/news/control/NewsChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/bosik927/model/news/NewsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/bosik927/model/news/control/NewsThread.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="142">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#792#793#0" expanded="true" />
@@ -97,70 +85,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/NewsThread.java">
+        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/controler/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#readImage#0;class#Controller#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="method#getAdvertisement#0;class#AdvertisementThread#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/view/krawczyk.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/entity/News.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementThread.java">
+        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/control/NewsChanger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="324">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="method#start#0;class#AdvertisementThread#0;class#AdvertisementThread#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/view/MainView.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/control/NewsThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="324">
+              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding>
-                <element signature="n#MenuBar#0;n#children#0;n#VBox#0;n#!!top" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/view/MediaAdvertisement.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/entity/AdvertisementType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/view/PictureAdvertisement.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -176,10 +164,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/Advertisement.java">
+        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/entity/Advertisement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="324">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding>
                 <element signature="e#183#184#0" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
@@ -207,15 +195,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementCreator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
+            <state relative-caret-position="142">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="method#readImage#0;class#GuiUpdater#0" />
-                <element signature="method#readVideo#0;class#GuiUpdater#0" />
+                <element signature="e#926#927#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -227,6 +213,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -263,10 +250,16 @@
         <option value="$PROJECT_DIR$/src/sample/NewsThread.java" />
         <option value="$PROJECT_DIR$/src/com/github/bosik927/NewsThread.java" />
         <option value="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/Advertisement.java" />
-        <option value="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementThread.java" />
         <option value="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementCreator.java" />
         <option value="$PROJECT_DIR$/src/com/github/bosik927/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementThread.java" />
+        <option value="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementCreator.java" />
+        <option value="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/entity/Advertisement.java" />
+        <option value="$PROJECT_DIR$/src/com/github/bosik927/model/news/control/NewsChanger.java" />
         <option value="$PROJECT_DIR$/src/com/github/bosik927/App.java" />
+        <option value="$PROJECT_DIR$/src/com/github/bosik927/model/news/control/NewsThread.java" />
+        <option value="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementThread.java" />
+        <option value="$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/entity/AdvertisementType.java" />
       </list>
     </option>
   </component>
@@ -333,7 +326,43 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bosik927" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="advertisement" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desktop-aplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desktop-aplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bosik927" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="advertisement" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desktop-aplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desktop-aplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bosik927" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desktop-aplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desktop-aplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bosik927" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desktop-aplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desktop-aplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bosik927" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="desktop-aplication" type="b2602c69:ProjectViewProjectNode" />
@@ -417,7 +446,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.bosik927.model.advertisement.*" />
+          <option name="PATTERN" value="com.github.bosik927.model.advertisement.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,7 +518,7 @@
       <workItem from="1557301271152" duration="4167000" />
       <workItem from="1557305891626" duration="123000" />
       <workItem from="1557306317421" duration="8924000" />
-      <workItem from="1559501767816" duration="21322000" />
+      <workItem from="1559501767816" duration="22331000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented displaying video">
       <created>1557309313704</created>
@@ -512,14 +541,22 @@
       <option name="project" value="LOCAL" />
       <updated>1559561525836</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactored code, added push method to News and Advertisement">
+      <created>1559569573388</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559569573388</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35838000" />
+    <option name="totallyTimeSpent" value="36847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21744967" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -568,13 +605,14 @@
     <MESSAGE value="Implemented displaying video" />
     <MESSAGE value="Implemented main view" />
     <MESSAGE value="Added missing fxml files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added missing fxml files" />
+    <MESSAGE value="Refactored code, added push method to News and Advertisement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored code, added push method to News and Advertisement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementCreator.java</url>
+          <url>file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementCreator.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="10" />
@@ -586,8 +624,8 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementCreator.java</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementCreator.java</url>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -673,125 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/NewsChanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/controler/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#readImage#0;class#Controller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/NewsThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="method#start#0;class#AdvertisementThread#0;class#AdvertisementThread#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/Advertisement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/AdvertisementCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="method#readImage#0;class#GuiUpdater#0" />
-            <element signature="method#readVideo#0;class#GuiUpdater#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/view/krawczyk.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -830,15 +749,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/controler/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readImage#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="142">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#792#793#0" expanded="true" />
             <element signature="e#820#821#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/entity/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/control/NewsThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/news/control/NewsChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="method#getAdvertisement#0;class#AdvertisementThread#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/control/AdvertisementCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/entity/Advertisement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/bosik927/model/advertisement/entity/AdvertisementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>

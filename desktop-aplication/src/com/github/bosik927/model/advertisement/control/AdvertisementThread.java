@@ -1,5 +1,6 @@
-package com.github.bosik927.model.advertisement;
+package com.github.bosik927.model.advertisement.control;
 
+import com.github.bosik927.model.advertisement.entity.Advertisement;
 import javafx.application.Platform;
 import javafx.scene.Parent;
 
@@ -7,18 +8,19 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.TimeUnit;
 
+//TODO: Change logs
 public class AdvertisementThread implements Runnable {
-    private static  Queue<Advertisement> advertisements = new LinkedList<>();
+
+    private static Queue<Advertisement> advertisements = new LinkedList<>();
     private Thread t;
     private String threadName;
     private Parent root;
 
-    public void pushAdvertisement(Advertisement advertisement){
+    public void pushAdvertisement(Advertisement advertisement) {
         advertisements.add(advertisement);
     }
 
-    public AdvertisementThread(String name, Parent parent) {
-        threadName = name;
+    public AdvertisementThread(Parent parent) {
         root = parent;
 
         System.out.println("Creating " + threadName);
@@ -41,6 +43,7 @@ public class AdvertisementThread implements Runnable {
         }
     }
 
+    //    FIXME: Delete
     private Queue<Advertisement> getAdvertisement() {
         Queue<Advertisement> advertisements = new LinkedList<>();
 

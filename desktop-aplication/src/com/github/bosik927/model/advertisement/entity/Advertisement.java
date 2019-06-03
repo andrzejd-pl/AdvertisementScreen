@@ -1,6 +1,7 @@
-package com.github.bosik927.model.advertisement;
+package com.github.bosik927.model.advertisement.entity;
 
 public class Advertisement {
+
     private int advertisementId;
     private String name;
     private String dataType;

@@ -1,5 +1,6 @@
-package com.github.bosik927.model.news;
+package com.github.bosik927.model.news.control;
 
+import com.github.bosik927.model.news.entity.News;
 import javafx.application.Platform;
 import javafx.scene.Parent;
 
@@ -16,7 +17,7 @@ public class NewsThread implements Runnable {
         this.root = root;
     }
 
-    public static void pushNews(News news){
+    public static void pushNews(News news) {
         newsQueue.add(news);
     }
 
@@ -29,7 +30,7 @@ public class NewsThread implements Runnable {
                 TimeUnit.SECONDS.sleep(3);
 
                 News message = newsQueue.remove();
-                Platform.runLater(new NewsChanger(root,message.getText()));
+                Platform.runLater(new NewsChanger(root, message.getText()));
                 newsQueue.add(message);
                 System.out.println(message.getText());
 
@@ -39,6 +40,7 @@ public class NewsThread implements Runnable {
         }
     }
 
+    //    FIXME: To delete
     private Queue<News> getNews() {
         Queue<News> news = new LinkedList<>();
 

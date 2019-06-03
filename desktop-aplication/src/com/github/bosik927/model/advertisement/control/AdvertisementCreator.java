@@ -1,5 +1,6 @@
-package com.github.bosik927.model.advertisement;
+package com.github.bosik927.model.advertisement.control;
 
+import com.github.bosik927.model.advertisement.entity.Advertisement;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -19,11 +20,12 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
 
+//TODO: Change logs, and exception handler
 public class AdvertisementCreator implements Runnable {
 
     private Advertisement advertisement;
 
-    AdvertisementCreator(Advertisement advertisement) {
+    public AdvertisementCreator(Advertisement advertisement) {
         this.advertisement = advertisement;
     }
 
