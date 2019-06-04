@@ -17,6 +17,13 @@ public class NewsThread implements Runnable {
         this.root = root;
     }
 
+    public NewsThread() {
+    }
+
+    public void setRoot(Parent root) {
+        this.root = root;
+    }
+
     public static void pushNews(News news) {
         newsQueue.add(news);
     }

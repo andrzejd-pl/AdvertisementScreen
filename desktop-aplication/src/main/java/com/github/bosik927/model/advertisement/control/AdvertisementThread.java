@@ -20,10 +20,16 @@ public class AdvertisementThread implements Runnable {
         advertisements.add(advertisement);
     }
 
+    public AdvertisementThread() {}
+
     public AdvertisementThread(Parent parent) {
         root = parent;
 
         System.out.println("Creating " + threadName);
+    }
+
+    public void setRoot(Parent root) {
+        this.root = root;
     }
 
     public void run() {
