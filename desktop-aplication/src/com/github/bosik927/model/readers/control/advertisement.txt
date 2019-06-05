@@ -1,0 +1,30 @@
+[
+{
+name: "Test",
+data_type: "video",
+source: "C:/Users/Bosik/Desktop/repositories/Przemek4/AdvertisementScreen/desktop-aplication/src/com/github/bosik927/model/advertisement/control/test2.mp4",
+time: 10,
+order: 4
+},
+{
+name: "Test2",
+data_type: "image",
+source: "C:/Users/Bosik/Desktop/repositories/Przemek4/AdvertisementScreen/desktop-aplication/src/com/github/bosik927/model/advertisement/control/test1.jpg",
+time: 10,
+order: 2
+},
+{
+name: "Test3",
+data_type: "web",
+source: "http://google.com",
+time: 10,
+order: 3
+},
+{
+name: "Test4",
+data_type: "web",
+source: "http://put.poznan.pl/",
+time: 10,
+order: 1
+}
+]

@@ -1,0 +1,22 @@
+[
+{
+name: "Student X nie zdał sesji po tym jak opluł prowadzącego",
+time: 1,
+order: 4
+},
+{
+name: "Żóbr nowym sponsorem reprezentacji Żuloligi",
+time: 3,
+order: 2
+},
+{
+name: "Rektor skasował konto prowadzącemu. Wszyscy studenci mają 3.0",
+time: 5,
+order: 3
+},
+{
+name: "Prezydent Poznania otworzył nową tęczową ścieżkę rowerową. Kierowcy heteroseksualiści protestują",
+time: "5",
+order: 1
+}
+]
