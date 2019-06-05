@@ -26,7 +26,7 @@ public class App extends Application {
         primaryStage.show();
 
         initialization();
-        Thread advertisementThread = new Thread(new AdvertisementThread());
+        Thread advertisementThread = new Thread(new AdvertisementThread(root));
         advertisementThread.start();
         threads.add(advertisementThread);
 

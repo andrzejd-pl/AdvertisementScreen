@@ -52,6 +52,7 @@
     <AnchorPane fx:id="anchorPane" maxHeight="-1.0" maxWidth="-1.0" prefWidth="764.0" VBox.vgrow="ALWAYS">
       <children>
             <Label fx:id="news" alignment="CENTER" layoutX="14.0" layoutY="539.0" prefHeight="42.0" prefWidth="806.0" textAlignment="CENTER" />
+            <VBox fx:id="advertisement" layoutX="224.0" layoutY="95.0" prefHeight="370.0" prefWidth="370.0" />
       </children>
     </AnchorPane>
   </children>

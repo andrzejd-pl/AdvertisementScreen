@@ -7,6 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.VBox;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
@@ -26,43 +27,48 @@ public class AdvertisementUICreator implements Runnable {
 
     private static final Logger LOGGER = Logger.getLogger(AdvertisementUICreator.class.getName());
     private Advertisement advertisement;
+    private Parent root;
 
-    public AdvertisementUICreator(Advertisement advertisement) {
+    public AdvertisementUICreator(Advertisement advertisement, Parent root) {
         this.advertisement = advertisement;
+        this.root = root;
+
     }
 
     @Override
     public void run() {
-        Parent root = null;
-        try {
-            if (advertisement.getData_type().equals("image")) {
-                root = FXMLLoader.load(getClass().getResource("PictureAdvertisement.fxml"));
-                ImageView imageView = (ImageView) root.lookup("#imageView");
-                imageView.setImage(readImage(advertisement.getSource()));
-            }
+        VBox vBox = (VBox) root.lookup("#advertisement");
+        vBox.getChildren().clear();
 
-            if (advertisement.getData_type().equals("video")) {
-                root = FXMLLoader.load(getClass().getResource("MediaAdvertisement.fxml"));
-                MediaView mediaView = (MediaView) root.lookup("#mediaView");
-                mediaView.setMediaPlayer(readVideo(advertisement.getSource()));
-            }
-
-            if (advertisement.getData_type().equals("web")) {
-                root = FXMLLoader.load(getClass().getResource("WebAdvertisement.fxml"));
-                WebView webView = (WebView) root.lookup("#webView");
-                WebEngine webEngine = webView.getEngine();
-                webEngine.load(advertisement.getSource());
-            }
-
-            Stage stage = new Stage();
-            stage.setTitle("Advertisement");
-            stage.setScene(new Scene(root));
-            stage.show();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("Problem with reading PictureAdvertisement.fxml file!");
+        if (advertisement.getData_type().equals("image")) {
+            ImageView imageView = new ImageView();
+            imageView.setImage(readImage(advertisement.getSource()));
+            imageView.setSmooth(true);
+            imageView.setFitHeight(vBox.getHeight());
+            imageView.setFitWidth(vBox.getWidth());
+            vBox.getChildren().add(imageView);
         }
+
+        if (advertisement.getData_type().equals("video")) {
+            MediaView mediaView = new MediaView();
+            mediaView.setMediaPlayer(readVideo(advertisement.getSource()));
+            mediaView.setSmooth(true);
+            mediaView.setFitHeight(vBox.getHeight());
+            mediaView.setFitWidth(vBox.getWidth());
+            vBox.getChildren().add(mediaView);
+        }
+
+        if (advertisement.getData_type().equals("web")) {
+            WebView webView = new WebView();
+            WebEngine webEngine = webView.getEngine();
+            webEngine.load(advertisement.getSource());
+            vBox.getChildren().add(webView);
+        }
+
+        Stage stage = new Stage();
+        stage.setTitle("Advertisement");
+        stage.setScene(new Scene(root));
+        stage.show();
 
     }
 
